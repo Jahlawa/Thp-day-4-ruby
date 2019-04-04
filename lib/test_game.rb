@@ -22,7 +22,7 @@ while x<=9 && x>=0
 end   
 puts "                                                          "
 puts "                                                          "
-puts "    👏👏👏👏👏👏👏  Bravo tu es au 10ème étage  👏👏👏👏👏👏👏"
+puts "     👏👏👏👏👏👏👏👏👏  Bravo tu as gagné   👏👏👏👏👏👏👏👏👏"
 puts "                 tu as fait #{z} fois d'essais            "
 end 
 
