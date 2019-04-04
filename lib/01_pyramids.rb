@@ -59,7 +59,7 @@ def continuation
   print ">  " 
   answer=gets.chomp.downcase
   if answer=="oui"
-      puts "          😱 😱 😱 😱 😱 😱 😱 😱 😱         "
+      puts "               😱 😱 😱 😱 😱 😱 😱 😱 😱         "
       perform 
   else 
       puts "  👋👋👋👋👋👋 Merci et Goodbye 👋👋👋👋👋👋  " 
