@@ -3,7 +3,7 @@ def jeux_de_roi
 x=0
 z=0
 while x<=9 && x>=0
-	y=rand(1...6)
+	y=rand(1..6)
 	if (y==5) || (y==6)
 		x+=1
 		puts "     tu as fait (#{y})=> Tu as bien monté un étage; tu es au #{x}ème"
