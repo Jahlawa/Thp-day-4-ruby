@@ -3,7 +3,7 @@ def sign_up
 	puts "      Quel est ton prénom?"
 	print "      >  "
 	name=gets.chomp 
-	puts "       Salut #{name}! 🤡 \n Maintenant choisis mot de passe"
+	puts "       Salut #{name}! 🤡 \n       Maintenant choisis mot de passe"
 	puts "                                                "
 	print "      💀💀💀 >  "
 	return password=gets.chomp 
