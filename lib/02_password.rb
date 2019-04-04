@@ -12,8 +12,8 @@ def login(password)
 	entered=nil
 	while entered != password
 	puts "                                                "
-	puts "💀💀💀💀💀💀💀💀💀💀💀💀💀💀💀💀💀💀💀💀💀💀💀 "
-	puts "entrez le mot de passe SVP !"
+	puts "      💀💀💀💀💀💀💀💀💀💀💀💀💀💀💀💀 "
+	puts "      entrez le mot de passe SVP !"
 	entered=gets.chomp 
 	end 
 	return true 
@@ -28,6 +28,8 @@ def welcome_screen
 	puts "        🍀🍀###🍀  sur ton espace sécurisé  🍀###🍀🍀"
 	puts "        🍀🍀#####################################🍀🍀"
 	puts "        🍀🍀🍀🍀🍀🍀🍀🍀🍀🍀🍀🍀🍀🍀🍀🍀🍀🍀🍀🍀🍀🍀"
+	puts "                                                "
+	puts "                                                "
 end  
 
 def perform 
