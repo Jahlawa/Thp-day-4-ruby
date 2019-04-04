@@ -13,8 +13,10 @@ def login(password)
 	while entered != password
 	puts "                                                "
 	puts "      💀💀💀💀💀💀💀💀💀💀💀💀💀💀💀💀 "
+	puts "                                                "
 	puts "      entrez le mot de passe SVP !"
-	print "       😈 😈 😈 >  "
+	puts "                                                "
+	print "      😈 😈 😈 >  "
 	entered=gets.chomp 
 	end 
 	return true 
