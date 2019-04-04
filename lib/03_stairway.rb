@@ -1,7 +1,4 @@
 
-	puts "manitenant, on va simuler la moyenne des partie sur 100 fois"
-	puts "      😃😃😃😃😃😃😃😃😃😃😃😃😃😃😃😃😃😃😃😃😃😃😃😃       "
-
 def jeux_de_roi 
 x=0
 z=0
@@ -44,10 +41,14 @@ def simulation
 		x+=1
 	end 
 	puts "                                                "
-	puts "     🤪 🤪 🤪 🤪 🤪 🤪 🤪 🤪 🤪 🤪 🤪 🤪 🤪 🤪        "
-	puts "                                                "
+	puts "     🤪 🤪 🤪 🤪 🤪 🤪 🤪 🤪 🤪 🤪 🤪 🤪 🤪        "
+	puts "                                                 "
+	puts "manitenant, on va simuler la moyenne des partie sur 100 fois"
 	puts " total => #{sum}/100=  #{sum/100}"
+	puts "     😃 😃 😃 😃 😃 😃 😃 😃 😃 😃 😃 😃 😃          "
 	puts " Donc, moyennement, il faut #{sum/100} partie sur 100 pour gagner le jeu !"
+	puts "                                                 "
+	puts "                                                 "
 end 
-
+	
 	simulation
