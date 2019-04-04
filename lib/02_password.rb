@@ -4,7 +4,8 @@ def sign_up
 	print "      >  "
 	name=gets.chomp 
 	puts "       Salut #{name}! 🤡 \n Maintenant choisis mot de passe"
-	print "       💀💀💀 >  "
+	puts "                                                "
+	print "      💀💀💀 >  "
 	return password=gets.chomp 
 end 
 
@@ -16,7 +17,7 @@ def login(password)
 	puts "                                                "
 	puts "      entrez le mot de passe SVP !"
 	puts "                                                "
-	print "      😈 😈 😈 >  "
+	print "     😈 😈 😈 >  "
 	entered=gets.chomp 
 	end 
 	return true 

@@ -23,7 +23,8 @@ end
 puts "                                                          "
 puts "                                                          "
 puts "     👏👏👏👏👏👏👏👏👏  Bravo tu as gagné   👏👏👏👏👏👏👏👏👏"
-puts "                 tu as fait #{z} fois d'essais            "
+puts "                    tu as fait #{z} fois d'essais            "
+puts "     👏👏👏👏👏👏👏👏👏  Bravo tu as gagné   👏👏👏👏👏👏👏👏👏"
 end 
 
 jeux_de_roi
