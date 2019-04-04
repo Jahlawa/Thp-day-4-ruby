@@ -59,6 +59,7 @@ def continuation
       perform 
   else 
       puts "  👋👋👋👋👋👋 Merci et Goodbye 👋👋👋👋👋👋  " 
+  end 
 end 
 
 
