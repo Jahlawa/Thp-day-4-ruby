@@ -20,8 +20,10 @@ while x<=9 && x>=0
 	end
 		z+=1
 end   
-puts "👏👏👏👏👏👏👏👏👏  Bravo tu es au 10ème étage 👏👏👏👏👏👏👏👏"
-puts "                 tu as fait #{z} fois d'essais"
+puts "                                                          "
+puts "                                                          "
+puts "    👏👏👏👏👏👏👏  Bravo tu es au 10ème étage  👏👏👏👏👏👏👏"
+puts "                 tu as fait #{z} fois d'essais            "
 end 
 
 jeux_de_roi
