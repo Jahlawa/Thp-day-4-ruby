@@ -1,16 +1,19 @@
 def sign_up
-	puts "Quel est ton prénom?"
-	print ">  "
+	puts "                                                "
+	puts "      Quel est ton prénom?"
+	print "      >  "
 	name=gets.chomp 
-	puts "Salut #{name} ! \n Maintenant choisis mot de passe"
-	print ">  "
+	puts "       Salut #{name}! 🤡 \n Maintenant choisis mot de passe"
+	print "🕵🏽‍♀️🕵🏽‍♀️🕵🏽‍♀️ >  "
 	return password=gets.chomp 
 end 
 
 def login(password)
 	entered=nil
 	while entered != password
-	puts "########################################"
+	puts "                                                "
+	puts "🚓 🚓 🚓 🚓 🚓 🚓 🚓 🚓 🚓 🚓 🚓 🚓 🚓 🚓 🚓 "
+	puts "👨‍✈️👨‍✈️👨‍✈️👨‍✈️👨‍✈️👨‍✈️👨‍✈️👨‍✈️👨‍✈️👨‍✈️👨‍✈️ "
 	puts "entrez le mot de passe SVP !"
 	entered=gets.chomp 
 	end 
@@ -18,12 +21,14 @@ def login(password)
 end   
 
 def welcome_screen
-	puts "        ########################################"
-	puts "        ########################################"
-	puts "        #########      Bienvenue        ########"
-	puts "        #########  C\'est bien sécurisé  ########"
-	puts "        ########################################"
-	puts "        ########################################"
+	puts "                                                "
+	puts "                                                "
+	puts "        🍀🍀🍀🍀🍀🍀🍀🍀🍀🍀🍀🍀🍀🍀🍀🍀🍀🍀🍀🍀🍀🍀🍀"
+	puts "        🍀🍀#################################🍀🍀"
+	puts "        🍀🍀###🍀      Bienvenue         🍀###🍀🍀"
+	puts "        🍀🍀###🍀   sur espace sécurisé  🍀###🍀🍀"
+	puts "        🍀🍀#################################🍀🍀"
+	puts "        🍀🍀🍀🍀🍀🍀🍀🍀🍀🍀🍀🍀🍀🍀🍀🍀🍀🍀🍀🍀🍀🍀🍀"
 end  
 
 def perform 
