@@ -11,9 +11,9 @@ end
 
 def bonjour(prenom)
 
-	puts "*******************************"
-	puts "****  Bonjour #{prenom}!  *****"
-	puts "*******************************"
+	puts "     *******************************"
+	puts "     *******  Bonjour #{prenom}!  *******"
+	puts "     *******************************"
 end
 
 def perform
