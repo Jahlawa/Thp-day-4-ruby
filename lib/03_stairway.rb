@@ -6,16 +6,16 @@ while x<=9 && x>=0
 	y=rand(1..6)
 	if (y==5) || (y==6)
 		x+=1
-		#puts "tu as fait (#{y})=> Tu as bien monté un étage; tu es au #{x}ème"
-	elsif (y==1) && (x<=0)
+		#puts "     tu as fait (#{y})=> Tu as bien monté un étage; tu es au #{x}ème"
+	elsif (y==1) 
 		if x>0 
-		x=-1
-		#puts "tu as fait (#{y})=> Tu es décendu d\'un étage; tu es au #{x}ème"
-		end  
-		#puts "tu est tout en bas, fait un peu d'effort"
-		next 
+		x-=1
+		#puts "     tu as fait (#{y})=> Tu es décendu d\'un étage; tu es au #{x}ème"
+		else  
+		#puts "     tu es tout en bas, fait un peu d'effort"
+		end 
 	else
-		#puts "tu as fait (#{y})=> Tu bouges pas, donc tu es encore au #{x}ème"
+		#puts "     tu as fait (#{y})=> Tu bouges pas, donc tu es encore au #{x}ème"
 		x+=0
 	end
 		z+=1
