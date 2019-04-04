@@ -14,6 +14,7 @@ def login(password)
 	puts "                                                "
 	puts "      💀💀💀💀💀💀💀💀💀💀💀💀💀💀💀💀 "
 	puts "      entrez le mot de passe SVP !"
+	print "       😈 😈 😈 >  "
 	entered=gets.chomp 
 	end 
 	return true 
