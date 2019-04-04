@@ -5,16 +5,16 @@ while x<=9 && x>=0
 	y=rand(1...6)
 	if (y==5) || (y==6)
 		x+=1
-		#puts "tu as fiat#{y}=> Tu as bien monte un etage; tu es au #{x}eme"
+		#puts "tu as fait#{y}=> Tu as bien monte un etage; tu es au #{x}eme"
 	elsif (y==1) && (x<=0)
 		if x>0 
 		x=-1
-		#puts "tu as fiat#{y}=> Tu es decendu d\'un etage; tu es au #{x}eme"
+		#puts "tu as fait#{y}=> Tu es decendu d\'un etage; tu es au #{x}eme"
 		end  
 		#puts "tu est tout en bas, fait un peu d'effort"
 		next 
 	else
-		#puts "tu as fiat#{y}=> Tu bouge pas, donc tu es encore au #{x}eme"
+		#puts "tu as fait#{y}=> Tu bouge pas, donc tu es encore au #{x}eme"
 		x+=0
 	end
 		z+=1
@@ -39,8 +39,8 @@ def simulation
 	end 
 	puts "--------------------------------------------"
 	puts " total => #{sum}/100=  #{sum/100}"
-	puts " Donc, moyennement, il faut #{sum/100} parite sur 100 pour gagnier le jeux !"
+	puts " Donc, moyennement, il faut #{sum/100} partie sur 100 pour gagner le jeu !"
 end 
 
-	puts "manitenant, on va similer la moyenne des partis sur 100 fois"
+	puts "manitenant, on va simuler la moyenne des partie sur 100 fois"
 	simulation
