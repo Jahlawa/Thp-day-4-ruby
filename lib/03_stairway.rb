@@ -1,3 +1,7 @@
+
+	puts "manitenant, on va simuler la moyenne des partie sur 100 fois"
+	puts "      😃😃😃😃😃😃😃😃😃😃😃😃😃😃😃😃😃😃😃😃😃😃😃😃       "
+
 def jeux_de_roi 
 x=0
 z=0
@@ -29,7 +33,9 @@ def simulation
 	100.times do |k| 
 		a << jeux_de_roi 
 	end 
-	puts "😴😴😴😴😴😴😴😴😴😴😴😴😴😴😴😴😴😴😴😴😴😴😴😴😴😴"
+	puts "                                                "
+	puts "      😴 😴 😴 😴 😴 😴 😴 😴 😴 😴 😴 😴 😴       "
+	puts "                                                "
 	puts a.inspect
 	x=0
 	sum=0
@@ -37,11 +43,11 @@ def simulation
 		sum +=a[x]
 		x+=1
 	end 
-	puts "🤪🤪🤪🤪🤪🤪🤪🤪🤪🤪🤪🤪🤪🤪🤪🤪🤪🤪🤪🤪🤪🤪🤪🤪🤪"
+	puts "                                                "
+	puts "     🤪 🤪 🤪 🤪 🤪 🤪 🤪 🤪 🤪 🤪 🤪 🤪 🤪 🤪        "
+	puts "                                                "
 	puts " total => #{sum}/100=  #{sum/100}"
 	puts " Donc, moyennement, il faut #{sum/100} partie sur 100 pour gagner le jeu !"
 end 
 
-	puts "manitenant, on va simuler la moyenne des partie sur 100 fois"
-	puts "      😃😃😃😃😃😃😃😃😃😃😃😃😃😃😃😃😃😃😃😃😃😃😃😃       "
 	simulation
