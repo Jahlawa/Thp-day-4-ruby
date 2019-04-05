@@ -1,3 +1,30 @@
+# def half_pyramid
+#   puts "                                                           "
+#   puts "                                                           "
+#   puts "           🌾🌾🌾🌾🌾🌾🌾🌾🌾🌾🌾🌾🌾🌾🌾🌾🌾🌾               "
+#   puts "           💫💫💫💫💫💫💫💫💫💫💫💫💫💫💫💫💫💫               "
+#   puts "***********************************************************"
+#   puts "**************       Half Pyramid         *****************"
+#   puts "***********************************************************"
+#   puts "                                                           "
+#   puts "                                                           "
+#   puts "Salut, bienvenue dans ma super pyramide! Combien d'étages souahites tu? \n (choisis un nobmre entre 0 et 25)"
+#   print ">  "
+
+#   etage= gets.chomp.to_i 
+#   if etage <= 26 && etage >=0
+#      etage.times do |i|
+#       i+=1
+#      puts "#{ " "*(etage)}" + "#{("#"*i)}" 
+#      etage-=1
+#      end  
+#     else
+#       puts "le chiffre n\'est pas bon!"
+#   end 
+# end 
+# half_pyramid
+
+
 def full_pyramid
   puts "                                                           "
   puts "                                                           "
